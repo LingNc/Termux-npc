@@ -8,9 +8,9 @@ pkg install wget
 ##### 按照脚本提示进行即可
 Termux
 ```shell
-wget https://raw.githubusercontent.com/LingNc/Termux_npc/main/termux-npc.sh && sh termux-npc.sh
+wget https://raw.githubusercontent.com/LingNc/Termux-npc/master/termux-npc.sh && sh termux-npc.sh
 ```
 Aidlux
 ```shell
-wget https://raw.githubusercontent.com/LingNc/Termux_npc/main/aidlux-npc.sh && sh aidlux-npc.sh
+wget https://raw.githubusercontent.com/LingNc/Termux-npc/master/aidlux-npc.sh && sh aidlux-npc.sh
 ```
