@@ -3,7 +3,7 @@ cd ~
 clear
 echo "正在安装基本组件..."
 pkg update
-pkg upgrade
+
 echo "正在安装软件包..."
 pkg install vim openssh
 if [ $? -eq 0 ];then
