@@ -116,6 +116,7 @@ else
     echo "下载失败！"
 fi
 
+sed -i '/npc-/d' ~/.bashrc
 echo "alias npc-reset='sh ~/npc/reset-npc.sh'" >> ~/.bashrc
 echo "alias npc-start='sv up npc'" >> ~/.bashrc
 echo "alias npc-stop='sv down npc'" >> ~/.bashrc
