@@ -95,9 +95,9 @@ cd ~/npc
 #安装termux-services
 echo ""
 echo "安装守护进程"
-pkg install termux-services > /dev/null
+pkg install termux-services
 cd ~
-wget https://raw.githubusercontent.com/LingNc/Termux_npc/main/autorun.sh > /dev/null 2>&1
+wget https://raw.githubusercontent.com/LingNc/Termux-npc/master/autorun.sh > /dev/null 2>&1
 echo "sh ~/autorun.sh" >> ~/.bashrc
 if [ $? -eq 0 ];then
     echo "安装成功！"
@@ -109,7 +109,7 @@ echo ""
 
 echo "下载重设服务"
 cd ~/npc
-wget https://raw.githubusercontent.com/LingNc/Termux_npc/main/reset-npc.sh > /dev/null 2>&1
+wget https://raw.githubusercontent.com/LingNc/Termux-npc/master/reset-npc.sh > /dev/null 2>&1
 if [ $? -eq 0 ];then
     echo "下载成功！"
 else
