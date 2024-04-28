@@ -10,6 +10,10 @@ Termux
 ```shell
 wget https://raw.githubusercontent.com/LingNc/Termux-npc/master/termux-npc.sh && sh termux-npc.sh
 ```
+Debian
+```shell
+wget https://raw.githubusercontent.com/LingNc/Termux-npc/master/debian-npc.sh && sh debian-npc.sh
+```
 Aidlux
 ```shell
 wget https://raw.githubusercontent.com/LingNc/Termux-npc/master/aidlux-npc.sh && sh aidlux-npc.sh
