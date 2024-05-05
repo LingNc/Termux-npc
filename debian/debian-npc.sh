@@ -82,6 +82,7 @@ fi
 
 echo ""
 
+chmod +x npc-*
 #去重
 sed -i '/npc-service/d' ~/.profile
 echo "/opt/npc/npc-service.sh" >> ~/.profile
