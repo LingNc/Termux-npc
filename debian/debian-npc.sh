@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 echo "准备安装npc"
 path=$(pwd)
