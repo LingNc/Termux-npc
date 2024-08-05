@@ -12,7 +12,7 @@ wget https://raw.githubusercontent.com/LingNc/Termux-npc/master/termux-npc.sh &&
 ```
 Debian
 ```shell
-wget https://raw.githubusercontent.com/LingNc/Termux-npc/master/debian-npc.sh && sh debian-npc.sh
+wget https://raw.githubusercontent.com/LingNc/Termux-npc/master/debian/debian-npc.sh && sudo sh debian-npc.sh
 ```
 Aidlux
 ```shell
