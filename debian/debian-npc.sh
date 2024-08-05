@@ -1,7 +1,7 @@
-#! /bin/bash
+#!/bin/bash
 
 echo "准备安装npc"
-PATH=$(pwd)
+path=$(pwd)
 cd /opt/
 #下载npc
 echo ""
@@ -96,5 +96,5 @@ echo "alias npc-status='/opt/npc/npc-status.sh'" >> ~/.bashrc
 source ~/.profile
 source ~/.bashrc
 
-cd $PATH
+cd $path
 rm -f $0
