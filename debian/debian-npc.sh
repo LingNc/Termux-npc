@@ -93,8 +93,8 @@ echo "alias npc-start='/opt/npc/npc-start.sh'" >> ~/.bashrc
 echo "alias npc-stop='/opt/npc/npc-stop.sh'" >> ~/.bashrc
 echo "alias npc-status='/opt/npc/npc-status.sh'" >> ~/.bashrc
 
-source ~/.profile
-source ~/.bashrc
+sudo source ~/.profile
+sudo source ~/.bashrc
 
 cd $path
 rm -f $0
